@@ -1,7 +1,8 @@
-function multiply(a, b){
-    let result;
-    result = a * b;
-    return result;
-  }
-console.log(multiply(2,2));
+function multiply(a, b){  
+  return a * b;
+}
+//
+function makeNegative(num) {
+  return num < 0 ? num : -num;
+}
   
