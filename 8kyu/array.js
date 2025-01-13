@@ -16,3 +16,26 @@ function findSmallestInt(arr) {
   }
   return smallest;
 }
+//
+function arrayPlusArray(arr1, arr2) {
+  sum1 = arr1.reduce((total, num) => total + num, 0);
+  sum2 = arr2.reduce((total, num) => total + num, 0);
+  return sum1 + sum2;
+}
+//
+function getAverage(arr){
+  if (arr.length === 0) {
+    return 0;
+  }
+  let sum = arr.reduce((total, num) => total + num, 0);
+  let avarage = sum / arr.length;
+  return Math.floor(avarage);
+}
+//
+function reversedStr(str) {
+  let reversed = '';
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed += str[i]; 
+  }
+  return reversed;
+}
