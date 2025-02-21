@@ -20,4 +20,9 @@ function move(position, roll) {
     return position + roll * 2;
   }
 }
+//
+function evenOrOdd(number) {
+  return number % 2 ? "Odd" : "Even";
+}
+
   
